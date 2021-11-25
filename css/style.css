@@ -1,0 +1,58 @@
+.board {
+    background-color: #2C2F33;
+}
+
+.main {
+    text-align: center;
+    width: 700px;
+}
+
+.container {
+
+background-color: #99badd;
+height: 30px;
+padding: 10px;
+margin-bottom: 10px;
+
+}
+
+button {
+    padding: 10px;
+    background-color: goldenrod;
+    margin-bottom: 10px;
+
+}
+
+.cell {
+
+height: 30px;
+width: 30px;
+background-color:#99badd;
+padding: 10px;
+text-align: center;
+font-size: 20px;
+
+
+}
+
+.cell:hover{
+    background-color:#7d98b6;
+}
+
+.revealed {
+
+    background-color: #acacac;
+
+}
+
+.mine{
+    background-color: red;
+}
+
+.smiley {
+
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+
+}
