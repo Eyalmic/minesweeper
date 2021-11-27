@@ -1,5 +1,10 @@
+
 .board {
-    background-color: #2C2F33;
+
+    /* background-color: #2C2F33; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .main {
@@ -9,7 +14,6 @@
 
 .container {
 
-background-color: #99badd;
 height: 30px;
 padding: 10px;
 margin-bottom: 10px;
@@ -19,7 +23,9 @@ margin-bottom: 10px;
 button {
     padding: 10px;
     background-color: goldenrod;
-    margin-bottom: 10px;
+    text-align: center;
+    margin: auto;
+
 
 }
 
@@ -27,7 +33,7 @@ button {
 
 height: 30px;
 width: 30px;
-background-color:#99badd;
+background-color:#23272a;
 padding: 10px;
 text-align: center;
 font-size: 20px;
@@ -50,9 +56,11 @@ font-size: 20px;
 }
 
 .smiley {
-
+    position: absolute;
+    padding-right: 50px;
+    padding: 10px;
+    font-size: 20px;
     height: 30px;
     width: 30px;
-    margin-bottom: 10px;
 
 }
